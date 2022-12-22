@@ -5,5 +5,12 @@ public class Main {
         sciFi.setAuthor("Douglas Adams");
         sciFi.setPrice(500);
         sciFi.printBookDetails();
+
+        Movie ghostBusters = new Movie();
+        ghostBusters.setTitle("Ghostbusters");
+        ghostBusters.setGenre(MovieGenre.COMEDY);
+        ghostBusters.setPrice(300);
+        ghostBusters.printMovieDetails();
+
     }
 }

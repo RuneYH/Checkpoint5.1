@@ -17,5 +17,6 @@ public class Book {
         System.out.println("Title: " + this.t);
         System.out.println("Author: " + this.author);
         System.out.println("Price: " + this.price);
+        System.out.println();
     }
 }
